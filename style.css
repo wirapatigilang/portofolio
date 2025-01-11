@@ -1,0 +1,80 @@
+.nav-link.active {
+  color: #fec253 !important;
+  font-weight: bold;
+}
+
+.jumbotron {
+  padding: 5rem 1rem;
+  background-color: #202020;
+  color: azure;
+}
+
+h1.display-4 {
+  font-weight: bold;
+}
+
+.jumbotron p {
+  color: #fec253;
+  font-weight: bolder;
+}
+
+#about {
+  padding-top: 5rem;
+  background-color: #212121;
+  color: azure;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+#tagline {
+  border-right: solid 3px rgba(0, 255, 0, 0.75);
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: "Source Code Pro", monospace;
+  font-size: 28px;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0 auto;
+  animation: animated-text 4s steps(20, end) 1s 1 normal both, animated-cursor 600ms steps(1, end) infinite;
+}
+
+/* text animation */
+@keyframes animated-text {
+  from {
+    width: 0;
+  }
+  to {
+    width: 300px; /* Exact width of your text */
+  }
+}
+
+/* cursor animation */
+@keyframes animated-cursor {
+  0% {
+    border-right-color: #fec253;
+  }
+  50% {
+    border-right-color: transparent;
+  }
+  100% {
+    border-right-color: #fec253;
+  }
+}
+
+#Projects {
+  padding-top: 5rem;
+  background-color: #212121;
+  color: azure;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: #fec253 0 0 5px 1px;
+}
+
+#Contact {
+  padding-top: 5rem;
+  background-color: #212121;
+  color: azure;
+}
